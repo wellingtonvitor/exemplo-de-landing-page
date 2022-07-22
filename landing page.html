@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+<head>
+	
+	<title>tutorial landing page</title>
+	<meta charset = "UTF-8">
+	<link rel = "stylesheet" href = "style9.css">
+	<script src = "script11.js"></script>
+
+</head>
+
+<body>
+
+	<section>
+	
+		<div class = "circle"></div>
+			<header>
+			
+					<ul>
+						<li><a href = "#">Pagina inicial</a></li>
+						<li><a href = "#">nossa história</a></li>
+						<li><a href = "#">fale conosco</a></li>
+						<li><a href = "#">O que há de novo?</a></li>
+						
+					</ul>
+				
+			</header>
+			<div class = "content">
+			
+				<div class = "textbox">
+				
+					<h2>Frutas e Legumes<br><span>frutas & legumes yay!</span></h2>
+					<p>frutas+legumes oh boy, é bom pra saúde blablablablablablablablablabla 
+					blablablablablablablablablablablablablablabla</p>
+				
+				</div>
+				<div class = "imgBox">
+				
+					<img src = "tomate.png" class = "img1">
+				
+				</div>
+			
+			</div>
+			<ul class = "thumb">
+			
+				<li><img src = "laranja.png" onclick = "imgSlider('laranja.png');changeCircleColor('#f4a046')"></li>
+				<li><img src = "milho verde.png" onclick = "imgSlider('milho verde.png');changeCircleColor('#a9db3a')"></li>
+				<li><img src = "tomate.png" onclick = "imgSlider('tomate.png');changeCircleColor('#f44646')"></li>
+				
+			</ul>
+			
+		
+	</section>
+	<!--
+	<script type="text/javascript">
+	
+		function imgSlider(anything){
+			document.querySelector('.img1').src = anything;
+		}
+	
+		function changeCircleColor(color){
+			const circle = document.querySelector('.circle');
+			circle.style.background = color;
+		}
+	
+	</script>
+	-->
+</body>
+
+</html>
